@@ -18,5 +18,9 @@ def resume_2():
 def resume_template():
     return render_template("resume_template.html")
 
+@app.route('/formulaire')
+def formulaire():
+    return render_template("formulaire.html")
+
 if(__name__ == "__main__"):
     app.run()
